@@ -6,14 +6,9 @@ Welcome to team Seoulminer's first project - an e-commerce website inspired by [
 
 ### Product: What types of goods and services does our product provide? / 우리의 프로덕트가 커버하는 제품과 서비스는 어떤 종류의 것일까?
 
-1. eCommerce service: the selling and purchasing of goods through the Internet
-    1. The decision to purchase goods is not made through the direct interaction with the physical goods, but rather through the descriptions displayed on the web page. Thus, it is important to provide detailed information within the given limits. 
-    2. Since it is not possible to receive the goods right after the purchase is complete, it is crucial to keep track of the necessary information for the delivery of the goods.
-2. Main genre of the goods: fun items
-    1. unique, hand-picked, non-mass-produced items
-    2. relatively low prices; can be purchased without a burden
-    3. items that would be good to give to a friend for fun purposes
+Our product's main service is eCommerce service: the selling and purchasing of goods through the Internet. The decision to purchase goods is not made through the direct interaction with the physical goods, but rather through the descriptions displayed on the web page. Thus, it is important to provide detailed information with the given limitations. Since it is not possible to receive the goods right after the purchase is complete, it is crucial to keep track of the necessary information for the delivery of the goods.
 
+The goods themself are mostly fun, unique, hand-picked, non-mass-produced items. They come in affordable prices and are items that would be good to gift to a friend for fun purposes.
        
 1. eCommerce를 영위: 네트워크 상에서 이루어지는 제품의 거래
     1. 실제로 제품을 보고 구매의사결정을 내리는 것이 아닌, 웹페이지에 게시된 정보를 바탕으로 구매의사결정을 내리게 됨. 따라서 제공 가능한 선에서 상품에 대한 상세 정보를 제공할 수 있어야 함.
@@ -25,21 +20,18 @@ Welcome to team Seoulminer's first project - an e-commerce website inspired by [
 
 ### End-user: Who are the users of our product? / 우리의 프로덕트는 어떤 사람이 사용하게 될까? 
 
-1. People who find interest in fun items
-    1. Users who enjoy collecting unique items / enjoy gifting fun presents
-    2. Accordingly, we assume that the general age of our users would be max 30 years of age.
-    3. It differs from everyday purchases such as grocery shopping
+People who find interest in fun, collectible items would make up the majority of our customers. Accordingly, we assume that the general age of our users would be max 30 years of age. Noticeably, our type of e-commerce differs from everyday purchases such as grocery shopping, which means that the accessibility/comfort of the website can be sacrificed for the sake of highlighting other fun features.
     
-    → Because of this, the accessibility of the website can be sacrificed for the sake of highlighting other fun features
-    
-1. 재미있는 소품을 사용할 만한 사람들
-    1. 이 사람들은 특이한 물건을 사용하는 것을 / 특이한 선물을 하는 것을 좋아한다. 
-    2. 따라서 주 이용 연령층은 max 30대 정도로 추정된다.
-    3. 또한 일상적인 구매(식자재 구매와 같은)가 이뤄지는 것은 아니다.
-    
+재미있는 소품을 사용할 만한 사람들
+1. 이 사람들은 특이한 물건을 사용하는 것을 / 특이한 선물을 하는 것을 좋아한다. 
+2. 따라서 주 이용 연령층은 max 30대 정도로 추정된다.
+3. 또한 일상적인 구매(식자재 구매와 같은)가 이뤄지는 것은 아니다.
     → 그렇기 때문에, 프로덕트의 접근성은 약간의 희생이 있어도 괜찮다.
    
 ### Feature: What features must our product have? / 우리의 프로덕트는 어떤 기능을 가지고 있어야할까?
+
+We figured that an eCommerce platform must have at least the features listed below.
+1. Creating an account: 
 
 eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 있어야 한다고 판단된다.
 
@@ -63,12 +55,12 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
 
 ### Tech: Our tools / 우리가 사용할 기술스택
 
-- Too;s
-    - fe : JavaScript, React, SCSS
+- Tools
+    - FE : JavaScript, React, SCSS
         - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" /></div>
-    - be : JavaScript, Node.js, Express, MySQL
+    - BE : JavaScript, Node.js, Express, MySQL
         - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div>
-        - Express
+        
 - Management Tools
 
 

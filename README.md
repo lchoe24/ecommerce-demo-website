@@ -4,7 +4,7 @@ Welcome to team Seoulminer's first project - an e-commerce website inspired by [
 
 ## A glimpse of our final product
 
-![ezgif com-video-to-gif](https://github.com/lchoe24/ecommerce-demo-website/assets/91116770/73a7c300-e752-457e-93c8-40ff6f7c572c)
+![ezgif com-video-to-gif (1)](https://github.com/lchoe24/ecommerce-demo-website/assets/91116770/1ece1383-fb30-4d31-b2ae-ce741e4e63cd)
 
 ---
 

@@ -2,9 +2,9 @@
 
 Welcome to team Seoulminer's first project - an e-commerce website inspired by [Baemin stationary](https://brandstore.baemin.com/). Having  learned about the basics of web development, we had just two weeks (06/23/2023 ~ 07/07/2023) to put our knowledge to the test and build our first website from scratch. Our team consisted of our [front end](https://github.com/wecode-bootcamp-korea/47-1st-seoulminer-frontend) members [양회진](https://github.com/hjyang369)(project manager) and [이지원](https://github.com/jiwon614118), and [back end](https://github.com/wecode-bootcamp-korea/47-1st-seoulminer-backend) members [신동현](https://github.com/donghyeun02), [하준수](https://github.com/joonsooha123)(product manager), and [myself](https://github.com/lchoe24). As a back end member, we mainly focused on building a Node.js web app using the Express framework with our data managed in MySQL. It was due to each of our team members' hard work and dedication and the vast resources available online that we were able to output our final product. 
 
-## Demo video - A glimpse of our final product
+## A glimpse of our final product
 
-[Team SeoulMiners DEMO](https://youtu.be/t2XcuRR5fUA)
+![ezgif com-video-to-gif](https://github.com/lchoe24/ecommerce-demo-website/assets/91116770/73a7c300-e752-457e-93c8-40ff6f7c572c)
 
 ---
 

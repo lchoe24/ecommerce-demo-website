@@ -36,8 +36,23 @@ People who find interest in fun, collectible items would make up the majority of
    
 ### Feature: What features must our product have? / 우리의 프로덕트는 어떤 기능을 가지고 있어야할까?
 
-We figured that an eCommerce platform must have at least the features listed below.
-1. Creating an account: 
+It was not difficult to list the essential features we decided to include on our ecommerce platform. However, we needed to put careful consideration into how we should structure the logic and flow of our services so that we could best cater to our audience while also supporting users' comfort and incorpating effective marketing tactics. Below are a few of the essential features we have on our website and short descriptions following each.
+
+1. Signing up for an account
+   1. Only those with accounts are given access to add items to cart and purchase goods, to encourage users to sign up for an account - they will have to enter their personal details later on anyways if they wanted to place an order.
+   1. Given that we store cart items in the database, it would save space to limit cart access to only users who have serious intent of purchasing items.
+   1. It would also help to retain information about the user early on to personalize our platform for that user.
+   2. Upon signing up, we hash the user's given password using Bcrypt to protect the user's account.
+2. Signing in
+   1. A user is given a JWT token upon signing in to track the user's actions through the valid token for proper authentication.
+3. Products
+   1. We applied useful categorizing and sorting techniques using queryBuilder so that users can easily search through products using the criteria of their choice.
+   2. In order to encourage the sale of our items, we included product information, related products, and reviews on the individual product page.
+   3. To make sure users were not met with disappointment when realizing the items they intended to purchase are all sold out when they click purchase, we notify users of sold out items and display low quantity items directly on the product page.
+4. Cart
+   1. By implementing a cart, we provided users with the necessary tools to save the items they wish to purchase and to adjust the quantities.
+5. Orders
+   1. Both customers and admin users must be able to view past order details, so we store all the orders in the database.
 
 eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 있어야 한다고 판단된다.
 
@@ -69,7 +84,6 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
         
 - Management Tools
 
-
 <div>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
@@ -79,10 +93,6 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
 <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=Visual Studio Code&logoColor=white"/>
 </div>
 
-
----
-
-## Deeper Dive
 
 ---
 
@@ -112,6 +122,8 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
 ---
 
 ## Learning points 
+
+
 - 장바구니, 주문결제 기능 개선: 현재는 장바구니를 통해 주문결제된 상품에 대해 데이터를 DB에서 hard delete 하는 방식으로 관리중인데, 이럴 경우 엔드유저가 장바구니에 담았던 상품에 대해 과거 이력을 조회할 수 없다. soft delete 하는 형식으로 바꿔서 데이터 이력을 남기는 방식으로 수정해 보고 싶다. 이럴 경우 엔드유저가 장바구니에 담았던 상품에 대한 데이터를 쌓을 수 있어 비즈니스 의사결정에 도움을 줄 수 있을 것이다.
 - 상품검색 기능: 검색기능의 경우, 근본적으로 필터링의 일종이라고 한다. 이번 프로젝트 스코프에서는 검색기능이 포함되지 않았는데, 다음 번 프로젝트를 진행할 때는 검색기능도 스코프 안에 포함시켜 구현해보고 싶다.
 - 상품리뷰 작성 / 게재 / 조회 기능: 상품 관련 정보 제공에 있어, 실제 사용해 본 사람의 언급만큼 귀중한 정보가 없을 것이다.

@@ -74,10 +74,6 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
     1. 엔드유저가 구매한 상품에 대해, 판매자도 그 내역을 확인해야 상품의 배송 등의 사후절차를 진행할 수 있다.
     2. 아울러 관계법령 상 거래에 대한 정보는 일정 기간 보관되어야 한다.
 
-### Full Demo Video
-
-[Click me!](https://www.youtube.com/watch?v=t2XcuRR5fUA&ab_channel=Jiwon9101)
-
 ### Tech: Our tools / 우리가 사용할 기술스택
 
 - Tools
@@ -85,7 +81,7 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
         - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="icon" width="65" height="65" /></div>
     - BE : JavaScript, Node.js, Express, MySQL
         - <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" height="65" /><img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" /></div>
-        
+
 - Management Tools
 
 <div>
@@ -97,6 +93,11 @@ eCommerce를 운영하기 위해서는, 최소한 아래의 기능을 가지고 
 <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=Visual Studio Code&logoColor=white"/>
 </div>
 
+---
+
+### Full Demo Video
+
+[Click me!](https://www.youtube.com/watch?v=t2XcuRR5fUA&ab_channel=Jiwon9101)
 
 ---
 
